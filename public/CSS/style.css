@@ -1,0 +1,99 @@
+.navbar{
+    background-color: blueviolet !important;
+}
+
+.nav-link{
+    color: white !important;
+    font-weight: bold;
+}
+.navbar-brand{
+    color: aqua !important;
+}
+.mlogo{
+    height: 40px;
+    width: 160px;
+}
+div + iimg{
+     height: 10px !important;
+ }
+ .sliimg{
+     height: 100px ;
+ }
+.wspac{
+    word-spacing: 20px;
+     white-space: pre;
+     color: aqua;
+     
+}
+.card{
+    display: inline-block;
+}
+.carousel-inner > .item > img {
+    width:640px;
+    height:180px !important;
+  }
+.ourproduct{
+    margin-top: 50px;
+}
+.card{
+    width: 230px;
+    height: auto;
+    margin-bottom: 5px;
+}
+.card-text{
+    font-weight: bold;
+}
+.card-title{
+    color: aqua;
+}
+.btn-primary{
+width: 200px;
+height: 40px !important;
+background-color: blueviolet;
+}
+.fa-shopping-cart{
+    font-size: 25px;
+}
+.fa-user-circle-o{
+    font-size: 25px;
+}
+.heading{
+    text-align: center;
+    font-weight: bold;
+color: blueviolet;
+margin: 20px;
+}
+.heading > h1{
+    text-shadow: 2px 2px 4px brown;
+}
+.fa-motorcycle,.fa-mobile,.fa-heart{
+    font-size: 50px;
+    margin-right: 10px;
+    color:aqua
+}
+h3{
+    color: white
+}
+.carttop1,.carttop2,.carttop3{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color:blueviolet;
+    box-shadow: 2px 4px 5px grey;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.mainCard{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    }
+@media only screen and (max-width: 600px) {
+    .carttop1,.carttop2,.carttop3,.card {
+      width: 100% ;
+    }
+  }
